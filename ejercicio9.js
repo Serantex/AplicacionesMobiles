@@ -7,7 +7,7 @@ var even =function(n){
 }
 
 var rechazar =function(n,array){
-    var resultado = array.filter(n=>even(n));
+    var resultado = array.filter(i=>n(i));
     console.log(resultado);
 }
 

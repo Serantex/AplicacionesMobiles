@@ -1,3 +1,3 @@
 var meses = ["enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","novimbre","diciembre"];
 
-console.log(meses);
+meses.forEach(i=>console.log(i));
